@@ -1,0 +1,22 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibinlittle/my_portfolio.git"
+  },
+  "author": "bibin_little",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibinlittle/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/bibinlittle/my_portfolio#readme",
+  "dependencies": {
+    "gatsby-source-filesystem": "^2.3.30"
+  }
+}

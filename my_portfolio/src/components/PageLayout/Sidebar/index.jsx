@@ -21,12 +21,12 @@ const DomContent = () => (
     <div className={`${style.name} centerAlign`}>
       <div className={`${style.boxName} centerAlign`}>
         <h2>
-          Rolwin
+          Bibin
           {' '}
-          <span>Reevan</span>
+          <span>Little</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Software Engineer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Developer | Creater | Designer</div>
       <div className="centerAlign box">
         <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={twitter} target="_blank" label="button" rel="noopener noreferrer"><FA name="twitter" /></a>
@@ -89,11 +89,11 @@ const Sidebar = (props) => {
         <Content className={`${style.content} ${style.background}`}>
           <Row>
             <Col sm={24} md={9} lg={6} className={style.sidebarContent}>
-              { domContent }
+              {domContent}
             </Col>
             <Col sm={24} md={15} lg={18}>
               <Layout className={`${style.background} ${style.boxContent} borderRadiusSection`}>
-                { children }
+                {children}
               </Layout>
             </Col>
           </Row>
